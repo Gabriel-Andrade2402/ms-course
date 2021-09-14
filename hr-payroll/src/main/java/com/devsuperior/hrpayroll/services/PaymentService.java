@@ -10,6 +10,7 @@ import com.devsuperior.hrpayroll.feignclients.WorkerFeignClient;
 @Service
 public class PaymentService {
 
+
 	@Autowired
 	private WorkerFeignClient workerFeignClient;
 
